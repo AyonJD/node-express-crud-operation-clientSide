@@ -19,6 +19,8 @@ const Users = () => {
             .catch(error => {
                 console.log('Error', error);
             })
+        alert('Data send successfully');
+        event.target.reset()
     }
     return (
         <div>
